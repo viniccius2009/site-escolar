@@ -7,15 +7,34 @@
 }
 
 body {
-  background-image: url('https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/03/representacao-de-varios-assuntos-da-fisica-uma-das-ciencias-da-natureza.jpg');
+  background: url('https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/03/representacao-de-varios-assuntos-da-fisica-uma-das-ciencias-da-natureza.jpg');
 }
 
+
 .texto {
-  background-color: rgba(0, 0, 0, 0.7); /* Transparência pra ver o fundo */
+  background-color: rgb(1, 83, 1); /* Transparência pra ver o fundo */
   max-width: 800px; /* Em vez de 1500px */
   padding: 20px;
-  border: 1px solid #ccc;
+  border-radius: 15px;
   margin: 40px auto; /* Centraliza horizontalmente */
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background: rgba(0,0,0,0.85);
+  color: #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
 }
 
 .img {
