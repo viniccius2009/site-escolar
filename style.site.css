@@ -7,12 +7,12 @@
 }
 
 body {
-  background: url('https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/03/representacao-de-varios-assuntos-da-fisica-uma-das-ciencias-da-natureza.jpg');
+  background-color: #1A237E;
 }
 
 
 .texto {
-  background-color: rgb(1, 83, 1); /* Transparência pra ver o fundo */
+  background-color: #00B0FF; /* Transparência pra ver o fundo */
   max-width: 800px; /* Em vez de 1500px */
   padding: 20px;
   border-radius: 15px;
@@ -38,6 +38,8 @@ footer {
 }
 
 .img {
-  float: left;
-  margin-right: 15px;
+  width: 300px;       /* Largura da imagem */
+  height: auto;       /* Mantém a proporção */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Sombra */
 }
