@@ -54,11 +54,11 @@ p {
 }
 
 img {
-  max-width: 300px;   /* tamanho máximo */
-  width: 100%;        /* se a tela for menor, a imagem reduz */
-  height: auto;       /* mantém proporção */
+  max-width: 300px;
+  width: 100%;        
+  height: auto;       
   display: block;
-  margin: 15px auto;  /* centraliza */
+  margin: 15px auto;  
   border-radius: 12px;
   box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
   transition: transform 0.3s ease;
