@@ -1,45 +1,82 @@
 * {
   margin: 0;
-  padding: 0; /* Corrigido */
+  padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  color: azure;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
 }
 
 body {
-  background-color: #1A237E;
+  background: linear-gradient(135deg, #1A237E, #0D47A1);
+  line-height: 1.6;
 }
 
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffeb3b;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ddd;
+}
 
 .texto {
-  background-color: #00B0FF; /* Transparência pra ver o fundo */
-  max-width: 800px; /* Em vez de 1500px */
-  padding: 20px;
-  border-radius: 15px;
-  margin: 40px auto; /* Centraliza horizontalmente */
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-  font-size: 2.5rem;
-  text-align: center;
-  color: #ffffff;
+  color: #ffeb3b;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #ffe082;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
   margin-bottom: 20px;
 }
+
+img {
+  max-width: 300px;   /* tamanho máximo */
+  width: 100%;        /* se a tela for menor, a imagem reduz */
+  height: auto;       /* mantém proporção */
+  display: block;
+  margin: 15px auto;  /* centraliza */
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
 
 footer {
   text-align: center;
   padding: 1px;
-  background: rgba(0,0,0,0.85);
-  color: #ccc;
+  background: rgba(0, 0, 0, 0.9);
+  color: #bbb;
+  font-size: 1px;
   position: fixed;
   bottom: 0;
   width: 100%;
-  font-size: 14px;
-}
-
-.img {
-  width: 300px;       /* Largura da imagem */
-  height: auto;       /* Mantém a proporção */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Sombra */
+  border-top: 1px solid #333;
 }
